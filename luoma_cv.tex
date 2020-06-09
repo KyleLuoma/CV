@@ -1,9 +1,6 @@
 \documentclass[12pt,letterpaper]{article}
 
-\usepackage{geometry}
-\geometry{margin=1in}
-
-
+\include{CV_format}
 
 % ---------- audience parameters ----------
 \usepackage{multiaudience}
@@ -23,6 +20,12 @@
 % ---------- computers and programming KSBs ----------
 \include{luoma_computer_skills}
 
+% ---------- award information ----------
+\include{luoma_awards}
+
+% ---------- teaching information ----------
+\include{luoma_teaching}
+
 \setcounter{secnumdepth}{0}
 \setlength{\parindent}{0pt}
 
@@ -30,49 +33,27 @@
 \begin{center}
 \begin{tabular}{rl}
 \huge\textbf{Kyle} &\huge\textbf{Luoma}\\
+
+
+
 (334) 477 4383 &kyle.r.luoma.mil@mail.mil\\
 6234 Summit Point Ct &Alexandria, VA 22310\end{tabular}
 \end{center}
+\CVLine
 \subsection{Personal Statement}
-I am an operations research and systems analyst U.S. Army officer selected by the U.S. Military Academy at West Point to serve as research faculty in the Army Cyber Institute in 2024 following the completion of a PhD in Computer Science---an endeavor that will be fully funded through the Army's Advanced Civil Schooling program. I am interested in opportunities to expand our knowledge of the data engineering, data management and inter-system information exchange topic areas. 
-
-
-\begin{shownto}{school}
+I am an operations research and systems analyst U.S. Army officer selected by the U.S. Military Academy at West Point to serve as research faculty in the Army Cyber Institute in 2024 following the completion of a PhD in Computer Science---an endeavor that will be fully funded through the Army's Advanced Civil Schooling program. I am interested in opportunities to expand our knowledge of the data engineering, data management and inter-system information exchange topic areas. \begin{shownto}{school}
 I would be honored to achieve my research goals at \SchoolName, especially because of \ProfessorName 's current research in the field of \FieldOfStudy.
 \end{shownto}
 
 \subsection{Education}
-\paragraph{\DegreeAType} 
-\DegreeAName \\
-\DegreeASchool , \DegreeACity , \DegreeAState \\
-\DegreeAHonors , \DegreeADate \\
- \\
-Courses of study: \DegreeACourses
-
-\paragraph{\DegreeBType} 
-\DegreeBName \\
-\DegreeBSchool , \DegreeBCity , \DegreeBState \\
-\DegreeBHonors , \DegreeBDate \\
- \\
-Courses of study: \DegreeBCourses
-
-\paragraph{\DegreeCType} 
-\DegreeCName \\
-\DegreeCSchool , \DegreeCCity , \DegreeCState \\
-\DegreeCHonors , \DegreeCDate \\
- \\
-\DegreeCCourses
+\EducationSubSectionContents
 
 \subsection{Computers and Programming}
-\paragraph{Professional Experience} \ComputerProfessionalExperience
-\paragraph{Academic Experience} 
-\ComputerAcademicExperience
-\paragraph{Personal Interest / Hobby Experience} \ComputerHobbyExperience
+\ComputerSubSectionContents
 
 \subsection{Teaching and Instruction}
-In my 15 years as an Army Officer, I have honed my communications and presentation skills through countless presentations, briefs and training deliveries to diverse audiences ranging in size from half a dozen to more than 300. Some specific roles that involved a high proportion of teaching and instruction include:
-\paragraph{Lead Instructor, Army Organization Server and Global Force Management Data Initiative} 2019--2020, Created all training resources and provided instruction to mid and senior level Army employees to facilitate the adoption of the Army Organization Server software and to learn the specifics of the Global Force Management Data Initiative data structures that underpin the processes and rules within the application. Delivered instruction both in-person, and via online distributed learning following COVID-19 travel restrictions.
-\paragraph{Student Cohort Leader}2015--2017, Coordinated resources and established a collaborative learning environment for fellow students also pursuing the Master of Science, Manpower Systems Analysis at the Naval Postgraduate School.
+\TeachingSubSectionContents
+
 \subsection{Professional Experience} 
 \paragraph{Major, Operations Research and Systems Analyst} 2018--present\\
 Lead Functional Data Analyst, Integrated Pay and Personnel System - Army, Software Release 3, Arlington, Virginia
@@ -86,19 +67,13 @@ Logistics and Supply Chain Management Operations, Seoul Airbase, South Korea\\
 Helicopter Platoon Leader, Seoul Airbase, South Korea\\
 Operations Planner, Seoul Airbase, South Korea
 \subsection{Research Interests}
+
 \subsection{Awards}
-\paragraph{Academic Awards}
-Distinguished Graduate, Naval War College, 2017\\
-Outstanding Thesis Award, Naval Postgraduate School, 2017\\
-Graduate of Distinction, Naval Postgraduate School, 2017\\
-Association of the U.S. Army Outstanding Army Student of the Quarter, Naval Postgraduate School, 2017
-Distinguished Graduate, Army Force Management School, 2013\\
-Business Management Student of the Year, Biola University, 2005
-\paragraph{Military Awards}
-Bronze Star Medal (2011),
-3 Meritorious Service Medals (2013, 2015, 2018),
-2 Army Commendation Medals (2008, 2019),
-2 Army Achievement Medals (2011, 2019), 4 Overseas Service Ribbons (2008, 2011, 2013, 2018), Afghanistan Campaign Medal, Korean Defense Service Medal, Nato Ribbon, Army Aviation Badge, Parachutist Badge
+\paragraph{Academic Awards\\}
+\AcademicAwards
+\paragraph{Military Awards\\}
+\MilitaryAwards
+
 \subsection{Publications}
 Kyle Luoma, \textsc{An Examination of Manpower Requirements in Support of the Army's Prospective Anti-Access and Area-Denial (A2AD) Role in the South China Sea}, 
 Master Thesis, Naval Postgraduate School, 2017, Published by the Defense Technical Information Center (DTIC)\par

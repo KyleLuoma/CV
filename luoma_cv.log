@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.3)  9 JUN 2020 11:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.3)  9 JUN 2020 13:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -23,12 +23,27 @@ File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
 )
+\@input{CV_format.aux}
+\openout2 = `CV_format.aux'.
+
+(./CV_format.tex (d:/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box45
+\beforetitleunit=\skip49
+\aftertitleunit=\skip50
+\ttl@plus=\dimen135
+\ttl@minus=\dimen136
+\ttl@toksa=\toks15
+\titlewidth=\dimen137
+\titlewidthlast=\dimen138
+\titlewidthfirst=\dimen139
+)
 (d:/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (d:/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
+\KV@toks@=\toks16
 )
 (d:/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
@@ -39,16 +54,16 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@cnth=\count175
 \Gm@cntv=\count176
 \c@Gm@tempcnt=\count177
-\Gm@bindingoffset=\dimen135
-\Gm@wd@mp=\dimen136
-\Gm@odd@mp=\dimen137
-\Gm@even@mp=\dimen138
-\Gm@layoutwidth=\dimen139
-\Gm@layoutheight=\dimen140
-\Gm@layouthoffset=\dimen141
-\Gm@layoutvoffset=\dimen142
-\Gm@dimlist=\toks16
-)
+\Gm@bindingoffset=\dimen140
+\Gm@wd@mp=\dimen141
+\Gm@odd@mp=\dimen142
+\Gm@even@mp=\dimen143
+\Gm@layoutwidth=\dimen144
+\Gm@layoutheight=\dimen145
+\Gm@layouthoffset=\dimen146
+\Gm@layoutvoffset=\dimen147
+\Gm@dimlist=\toks17
+))
 (d:/texlive/2020/texmf-dist/tex/latex/multiaudience/multiaudience.sty
 Package: multiaudience 2015/08/02 v1.02 Generating versions for different audie
 nces from the same source
@@ -58,8 +73,8 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (d:/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (d:/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks17
-\XKV@tempa@toks=\toks18
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
 )
 \XKV@depth=\count178
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -70,7 +85,7 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 (d:/texlive/2020/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
-\@envbody=\toks19
+\@envbody=\toks20
 ))
 \@input{luoma_education.aux}
 \openout2 = `luoma_education.aux'.
@@ -80,28 +95,36 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \openout2 = `luoma_computer_skills.aux'.
 
 (./luoma_computer_skills.tex)
+\@input{luoma_awards.aux}
+\openout2 = `luoma_awards.aux'.
+
+(./luoma_awards.tex)
+\@input{luoma_teaching.aux}
+\openout2 = `luoma_teaching.aux'.
+
+(./luoma_teaching.tex)
 (d:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count179
-\l__pdf_internal_box=\box45
+\l__pdf_internal_box=\box46
 )
 (./luoma_cv.aux)
 \openout1 = `luoma_cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -138,34 +161,34 @@ LaTeX Font Info:    ... okay on input line 30.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 32.
+(Font)              <12> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 32.
+(Font)              <8> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 32.
+(Font)              <6> on input line 34.
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--52
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--59
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
  []
 
 
-Overfull \hbox (0.57623pt too wide) in paragraph at lines 54--59
+Overfull \hbox (0.57623pt too wide) in paragraph at lines 49--49
 \OT1/cmr/m/n/12 Struc-tures, Mul-ti-me-dia Pro-gram-ming, In-ter-net Pro-gram-m
 ing, Net-work-ing, In-tro to Database
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--66
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--66
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
@@ -175,23 +198,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--66
 
 
 
+
+
+
+
+
+
 {d:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-(./luoma_cv.aux) ) 
+[4] (./luoma_cv.aux) ) 
 Here is how much of TeX's memory you used:
- 1294 strings out of 480682
- 19920 string characters out of 5908569
- 263132 words of memory out of 5000000
- 17144 multiletter control sequences out of 15000+600000
+ 1609 strings out of 480682
+ 24011 string characters out of 5908569
+ 272241 words of memory out of 5000000
+ 17445 multiletter control sequences out of 15000+600000
  536893 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 31i,7n,33p,569b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
-<d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-bx12.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
-><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on luoma_cv.pdf (3 pages, 58560 bytes).
+ 35i,7n,33p,535b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
+<d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10
+.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on luoma_cv.pdf (4 pages, 58876 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
- 17 compressed objects within 1 object stream
+ 29 PDF objects out of 1000 (max. 8388607)
+ 19 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
