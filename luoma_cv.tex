@@ -3,7 +3,6 @@
 \usepackage{geometry}
 \geometry{margin=1in}
 
-\include{luoma_education}
 
 
 % ---------- audience parameters ----------
@@ -11,6 +10,7 @@
 \SetNewAudience{general}
 \SetNewAudience{school}
 \DefCurrentAudience{general}
+\DefCurrentAudience{school}
 
 % ---------- define CV target parameters ----------
 \newcommand{\SchoolName}{UC San Diego}
@@ -18,8 +18,10 @@
 \newcommand{\FieldOfStudy}{Computer Science}
 
 % ---------- education information ----------
+\include{luoma_education}
 
-
+% ---------- computers and programming KSBs ----------
+\include{luoma_computer_skills}
 
 \setcounter{secnumdepth}{0}
 \setlength{\parindent}{0pt}
@@ -62,9 +64,11 @@ Courses of study: \DegreeBCourses
 \DegreeCCourses
 
 \subsection{Computers and Programming}
-\paragraph{Professional Experience} Python \& Python data science libraries (Pandas, Numpy, Mathplot Lib), SQL, VBA, Bash, Powershell, Oracle Business Intelligence, Qlik Analytics, Git Version Control
-\paragraph{Academic Experience} C++, Java, Kotlin, MASM, JavaScript, PHP, HTML/CSS, R, Stata
-\paragraph{Personal Interest / Hobby Experience} C, Arduino, 3D Printing, LaTeX
+\paragraph{Professional Experience} \ComputerProfessionalExperience
+\paragraph{Academic Experience} 
+\ComputerAcademicExperience
+\paragraph{Personal Interest / Hobby Experience} \ComputerHobbyExperience
+
 \subsection{Teaching and Instruction}
 In my 15 years as an Army Officer, I have honed my communications and presentation skills through countless presentations, briefs and training deliveries to diverse audiences ranging in size from half a dozen to more than 300. Some specific roles that involved a high proportion of teaching and instruction include:
 \paragraph{Lead Instructor, Army Organization Server and Global Force Management Data Initiative} 2019--2020, Created all training resources and provided instruction to mid and senior level Army employees to facilitate the adoption of the Army Organization Server software and to learn the specifics of the Global Force Management Data Initiative data structures that underpin the processes and rules within the application. Delivered instruction both in-person, and via online distributed learning following COVID-19 travel restrictions.
