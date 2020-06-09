@@ -3,13 +3,27 @@
 \usepackage{geometry}
 \geometry{margin=1in}
 
+\include{luoma_education}
+
+
+% ---------- audience parameters ----------
 \usepackage{multiaudience}
 \SetNewAudience{general}
 \SetNewAudience{school}
 \DefCurrentAudience{general}
 
+% ---------- define CV target parameters ----------
+\newcommand{\SchoolName}{UC San Diego}
+\newcommand{\ProfessorName}{Dr. John Doe}
+\newcommand{\FieldOfStudy}{Computer Science}
+
+% ---------- education information ----------
+
+
+
 \setcounter{secnumdepth}{0}
 \setlength{\parindent}{0pt}
+
 \begin{document}
 \begin{center}
 \begin{tabular}{rl}
@@ -20,30 +34,32 @@
 \subsection{Personal Statement}
 I am an operations research and systems analyst U.S. Army officer selected by the U.S. Military Academy at West Point to serve as research faculty in the Army Cyber Institute in 2024 following the completion of a PhD in Computer Science---an endeavor that will be fully funded through the Army's Advanced Civil Schooling program. I am interested in opportunities to expand our knowledge of the data engineering, data management and inter-system information exchange topic areas. 
 
+
 \begin{shownto}{school}
-I would be honored to achieve this goal at INSERT SCHOOL HERE, especially because of INSERT PROFESSOR HERE's current research in the field of INSERT FIELD OF STUDY HERE.
+I would be honored to achieve my research goals at \SchoolName, especially because of \ProfessorName 's current research in the field of \FieldOfStudy.
 \end{shownto}
 
 \subsection{Education}
-\paragraph{Master of Science} 
-Manpower Systems Analysis \\
-Naval Postgraduate School, Monterey California\\
-Graduate of Distinction, 2017.03\\
+\paragraph{\DegreeAType} 
+\DegreeAName \\
+\DegreeASchool , \DegreeACity , \DegreeAState \\
+\DegreeAHonors , \DegreeADate \\
  \\
-Courses of study: Quantitative Analysis of Manpower Data I (Quantitative methods) and II (Multivariate analysis), Manpower Modeling (quantitative), Economics (micro, macro and labor), Human-System Integration, Knowledge Management, Accounting (cost and financial), Business Modeling (quantitative)
+Courses of study: \DegreeACourses
 
-\paragraph{Post Baccalaureate of Science} Computer Science - Software Engineering\\
-California State University - Monterey Bay, Seaside California\\
-GPA 3.97, Graduated 2018.10\\
+\paragraph{\DegreeBType} 
+\DegreeBName \\
+\DegreeBSchool , \DegreeBCity , \DegreeBState \\
+\DegreeBHonors , \DegreeBDate \\
  \\
-Courses of study (CSUMB): Software Engineering, Software Design, Algorithms, Data Structures, Multimedia Programming, Internet Programming, Networking, Intro to Database Systems\\
-Transferred courses (Northwestern University): Database Design and Implementation, Introduction to Predictive Analytics, Statistical Analysis\\
-Transferred courses (Gavilan Community College): C++ I and II, Operating Systems, Discrete Mathematics, Computer Architecture
+Courses of study: \DegreeBCourses
 
-\paragraph{Bachelor of Science}
-Business Administration\\
-Biola University, La Mirada California\\
-Cum Laude, Business Student of the Year, 2005.05
+\paragraph{\DegreeCType} 
+\DegreeCName \\
+\DegreeCSchool , \DegreeCCity , \DegreeCState \\
+\DegreeCHonors , \DegreeCDate \\
+ \\
+\DegreeCCourses
 
 \subsection{Computers and Programming}
 \paragraph{Professional Experience} Python \& Python data science libraries (Pandas, Numpy, Mathplot Lib), SQL, VBA, Bash, Powershell, Oracle Business Intelligence, Qlik Analytics, Git Version Control
