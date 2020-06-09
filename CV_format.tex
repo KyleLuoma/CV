@@ -1,5 +1,5 @@
-\usepackage{titlesec}
 \usepackage{geometry}
+\usepackage{titlesec}
 
 \setcounter{secnumdepth}{0}
 \setlength{\parindent}{0pt}
@@ -7,10 +7,14 @@
 % ---------- Geometry ----------
 \geometry{margin=1in}
 
-% ---------- TitleSec ----------
-\titlespacing{\section}{12pc}{1.5ex plus .1ex minus .2ex}{1pc}
+% ---------- Spacing and Titles ----------
+%\titlespacing{\section}{12pc}{1.5ex plus .1ex minus .2ex}{1pc}
+\titlespacing*{\section}{0pt}{1.5ex}{1.5ex}
+\titlespacing*{\paragraph}{0pt}{1.5ex}{1.5ex}
 
+% ---------- Lines ----------
 \newcommand{\CVLine}{\noindent\hrulefill}
+\newcommand{\SubSectionLine}{\color{blue}\hrulefill}
 
 % ---------- Page Break Limiter ----------
 \newenvironment{samepageCV}
