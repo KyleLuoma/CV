@@ -1,6 +1,17 @@
 \documentclass[12pt,letterpaper]{article}
 
+% ---------- includes ----------
+\include{personal_info}
 \include{CV_format}
+\include{luoma_education}
+\include{luoma_computer_skills}
+\include{luoma_awards}
+\include{luoma_teaching}
+\include{luoma_professional_experience}
+\include{luoma_research_interest}
+\include{luoma_publications}
+\include{luoma_certifications}
+\include{luoma_memberships}
 
 % ---------- audience parameters ----------
 \usepackage{multiaudience}
@@ -14,30 +25,22 @@
 \newcommand{\ProfessorName}{Dr. John Doe}
 \newcommand{\FieldOfStudy}{Computer Science}
 
-% ---------- education information ----------
-\include{luoma_education}
+% ---------- misc toggles ----------
 
-% ---------- computers and programming KSBs ----------
-\include{luoma_computer_skills}
+% ---- Rank: Include / Exclude Rank
+\newif\ifIncludeRank
+%\IncludeRanktrue
+\IncludeRankfalse
 
-% ---------- award information ----------
-\include{luoma_awards}
-
-% ---------- teaching information ----------
-\include{luoma_teaching}
-
-\setcounter{secnumdepth}{0}
-\setlength{\parindent}{0pt}
+% ---- Courses of study: Include / Exclude Courses
+\newif\ifIncludeCourses
+\IncludeCoursestrue
+%\IncludeCoursesfalse
 
 \begin{document}
 \begin{center}
 \begin{tabular}{rl}
-\huge\textbf{Kyle} &\huge\textbf{Luoma}\\
-
-
-
-(334) 477 4383 &kyle.r.luoma.mil@mail.mil\\
-6234 Summit Point Ct &Alexandria, VA 22310\end{tabular}
+\PersonalInfoHeader
 \end{center}
 \CVLine
 \subsection{Personal Statement}
@@ -55,34 +58,21 @@ I would be honored to achieve my research goals at \SchoolName, especially becau
 \TeachingSubSectionContents
 
 \subsection{Professional Experience} 
-\paragraph{Major, Operations Research and Systems Analyst} 2018--present\\
-Lead Functional Data Analyst, Integrated Pay and Personnel System - Army, Software Release 3, Arlington, Virginia
-\paragraph{Captain, Army Force Development Analyst} 2013--2018\\
-Organization Development and Analysis, Army Futures Command Task Force, Arlington Virginia\\
-Force Integration Analyst, U.S. Army Alaska Headquarters, Anchorage, Alaska\\
-Budget and Programming Analyst, Army G-8, Pentagon, D.C.
-\paragraph{Lieutenant--Captain, Army Aviation Officer, UH-60 Blackhawk Pilot} 2005--2013\\
-Air Traffic Services Company Commander, Fort Wainwright, Alaska\\
-Logistics and Supply Chain Management Operations, Seoul Airbase, South Korea\\
-Helicopter Platoon Leader, Seoul Airbase, South Korea\\
-Operations Planner, Seoul Airbase, South Korea
+\ProfessionalExperienceSubSectionContents
+
 \subsection{Research Interests}
+\ResearchInterestSubSectionContents
 
 \subsection{Awards}
-\paragraph{Academic Awards\\}
-\AcademicAwards
-\paragraph{Military Awards\\}
-\MilitaryAwards
+\AwardSubSectionContents
 
 \subsection{Publications}
-Kyle Luoma, \textsc{An Examination of Manpower Requirements in Support of the Army's Prospective Anti-Access and Area-Denial (A2AD) Role in the South China Sea}, 
-Master Thesis, Naval Postgraduate School, 2017, Published by the Defense Technical Information Center (DTIC)\par
-\subsection{Certifications}
-Commercial Rotary Wing License 2005, Federal Aviation Administration
+\PublicationsSubSectionContents
 
-Technician Class Amateur Radio License (KF6KKM) 2012, American Radio Relay League
+\subsection{Certifications}
+\CertificationsSubSectionContents
 
 \subsection{Professional Memberships}
-Association of the United States Army (AUSA)\\
-Institute of Electrical and Electronics Engineers (IEEE) Computer Society
+\MembershipsSubSectionContents
+
 \end{document}

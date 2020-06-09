@@ -1,6 +1,9 @@
 \usepackage{titlesec}
 \usepackage{geometry}
 
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+
 % ---------- Geometry ----------
 \geometry{margin=1in}
 
@@ -9,3 +12,10 @@
 
 \newcommand{\CVLine}{\noindent\hrulefill}
 
+% ---------- Page Break Limiter ----------
+\newenvironment{samepageCV}
+{}{}
+%  {\par\nobreak\vfil\penalty0\vfilneg
+%   \vtop\bgroup}
+%  {\par\xdef\tpd{\the\prevdepth}\egroup
+%   \prevdepth=\tpd\raggedbottom}

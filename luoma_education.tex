@@ -1,25 +1,34 @@
 % ---------- education subsection ----------
 \newcommand{\EducationSubSectionContents}{
+
+\begin{samepageCV}
 \paragraph{\DegreeAType \\} 
 \DegreeAName \\
 \DegreeASchool , \DegreeACity , \DegreeAState \\
-\DegreeAHonors , \DegreeADate \\
- \\
-Courses of study: \DegreeACourses
+\DegreeAHonors , \DegreeADate
+\ifIncludeCourses{
+\\ \textbf{Courses of study:} \DegreeACourses
+}
+\fi
+\end{samepageCV}
 
+\begin{samepageCV}
 \paragraph{\DegreeBType \\} 
 \DegreeBName \\
 \DegreeBSchool , \DegreeBCity , \DegreeBState \\
-\DegreeBHonors , \DegreeBDate \\
- \\
-Courses of study: \DegreeBCourses
+\DegreeBHonors , \DegreeBDate
+\ifIncludeCourses{
+\\ \textbf{Courses of study:} \DegreeBCourses
+}
+\fi
+\end{samepageCV}
 
+\begin{samepageCV}
 \paragraph{\DegreeCType \\} 
 \DegreeCName \\
 \DegreeCSchool , \DegreeCCity , \DegreeCState \\
-\DegreeCHonors , \DegreeCDate \\
- \\
-\DegreeCCourses
+\DegreeCHonors , \DegreeCDate
+\end{samepageCV}
 }
 
 % ---------- education information ----------
