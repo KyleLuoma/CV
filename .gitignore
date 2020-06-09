@@ -1,4 +1,5 @@
 .pdf
 *.pdf
-
+*.aux
+*.log
 personal_info.*
