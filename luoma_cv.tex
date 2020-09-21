@@ -1,5 +1,6 @@
 \documentclass[12pt,letterpaper]{article}
 \usepackage{xcolor}
+\usepackage{hyperref}
 
 \setlength{\parindent}{0mm}
 
@@ -26,26 +27,32 @@
 \DefCurrentAudience{school}
 
 % ---------- define CV target parameters ----------
-\newcommand{\SchoolName}{UC San Diego}
-\newcommand{\ProfessorName}{Dr. John Doe}
-\newcommand{\FieldOfStudy}{Computer Science}
+\newcommand{\SchoolName}{University of Southern California}
+\newcommand{\ProfessorName}{Dr. Viktor Prasanna}
+\newcommand{\FieldOfStudy}{data science and his data science lab}
 
 % ---------- misc toggles ----------
 
 % ---- Rank: Include / Exclude Rank
 \newif\ifIncludeRank
 \IncludeRanktrue
-%\IncludeRankfalse
+\IncludeRankfalse
 
 % ---- Courses of study: Include / Exclude Courses
 \newif\ifIncludeCourses
-%\IncludeCoursestrue
-\IncludeCoursesfalse
+\IncludeCoursestrue
+%\IncludeCoursesfalse
 
 % ---- GPA: Include / Exclude GPA
 \newif\ifIncludeGPA
 \IncludeGPAtrue
 %\IncludeGPAfalse
+
+% ---- Computer projets: Include / Exclude projects
+\newif\ifIncludeComputerProjects
+\IncludeComputerProjectstrue
+%\IncludeComputerProjectsfalse
+
 
 \begin{document}
 \begin{center}

@@ -1,10 +1,16 @@
 % ---------- computer skills subsection ----------
 \newcommand{\ComputerSubSectionContents}{
 \begin{samepageCV}
-\paragraph{Professional Experience} - \\ \ComputerProfessionalExperience
+\paragraph{Professional Experience} - \\
+\ComputerProfessionalExperience
 \paragraph{Academic Experience} - \\ 
 \ComputerAcademicExperience
 \paragraph{Personal Interest / Hobby Experience} - \\ \ComputerHobbyExperience
+\ifIncludeComputerProjects{
+\paragraph{Projects} - \\
+\ComputerProjects
+}
+\fi
 \end{samepageCV}
 }
 
@@ -40,3 +46,18 @@ Arduino,
 3D Printing, 
 LaTeX
 }
+
+\newcommand{\ComputerProjects}{
+Faces to Spaces -- Analysis of legacy personnel and organization assignment data and conversion to GFM DI data format using a best match iterative approach. Python.\\ \href{https://github.com/KyleLuoma/f2s\_project}{github.com/KyleLuoma/f2s\_project}\\
+
+Mooze -- Wildlife tracking web application to track moose and bear sightings in the Anchorage, Alaska area. PHP, JavaScript, GeoJSON. \\
+\href{https://github.com/KyleLuoma/mooze}{github.com/KyleLuoma/mooze}\\
+
+IP Packet Monitor -- IP capture tool that outputs local network traffic to a CSV file. Runs on GNU Linux platforms, including Raspberry Pi Raspbian. C. 
+\href{https://github.com/KyleLuoma/ip-packet-monitor}{github.com/KyleLuoma/ip-packet-monitor}
+}
+
+
+
+
+
