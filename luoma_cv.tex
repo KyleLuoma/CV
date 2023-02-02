@@ -1,5 +1,6 @@
 \documentclass[12pt,letterpaper]{article}
 \usepackage{xcolor}
+\usepackage{hyperref}
 
 \setlength{\parindent}{0mm}
 
@@ -23,7 +24,7 @@
 \SetNewAudience{general}
 \SetNewAudience{school}
 \DefCurrentAudience{general}
-\DefCurrentAudience{school}
+%\DefCurrentAudience{school}
 
 % ---------- define CV target parameters ----------
 \newcommand{\SchoolName}{UC San Diego}
@@ -35,17 +36,23 @@
 % ---- Rank: Include / Exclude Rank
 \newif\ifIncludeRank
 \IncludeRanktrue
-%\IncludeRankfalse
+\IncludeRankfalse
 
 % ---- Courses of study: Include / Exclude Courses
 \newif\ifIncludeCourses
-%\IncludeCoursestrue
-\IncludeCoursesfalse
+\IncludeCoursestrue
+% \IncludeCoursesfalse
 
 % ---- GPA: Include / Exclude GPA
 \newif\ifIncludeGPA
 \IncludeGPAtrue
-%\IncludeGPAfalse
+% \IncludeGPAfalse
+
+% ---- Computer projets: Include / Exclude projects
+\newif\ifIncludeComputerProjects
+\IncludeComputerProjectstrue
+%\IncludeComputerProjectsfalse
+
 
 \begin{document}
 \begin{center}
@@ -56,31 +63,31 @@
 \subsection{Personal Statement \SubSectionLine}
 \PersonalStatementSubSectionContents
 
+\subsection{Teaching and Instruction \SubSectionLine}
+\TeachingSubSectionContents
+
 \subsection{Education \SubSectionLine}
 \EducationSubSectionContents
 
-\subsection{Research Interests \SubSectionLine}
+\subsection{Current Research Focus \SubSectionLine}
 \ResearchInterestSubSectionContents
 
 \subsection{Professional Experience \SubSectionLine} 
 \ProfessionalExperienceSubSectionContents
 
-\subsection{Computers and Programming \SubSectionLine}
-\ComputerSubSectionContents
-
-\subsection{Teaching and Instruction \SubSectionLine}
-\TeachingSubSectionContents
+% \subsection{Computers and Programming \SubSectionLine}
+% \ComputerSubSectionContents
 
 \subsection{Awards \SubSectionLine}
 \AwardSubSectionContents
 
-\subsection{Publications \SubSectionLine}
-\PublicationsSubSectionContents
+% \subsection{Publications \SubSectionLine}
+% \PublicationsSubSectionContents
 
-\subsection{Certifications \SubSectionLine}
-\CertificationsSubSectionContents
+% \subsection{Certifications \SubSectionLine}
+% \CertificationsSubSectionContents
 
-\subsection{Professional Memberships \SubSectionLine}
-\MembershipsSubSectionContents
+% \subsection{Professional Memberships \SubSectionLine}
+% \MembershipsSubSectionContents
 
 \end{document}
